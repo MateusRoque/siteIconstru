@@ -1,0 +1,83 @@
+@import url(roots.css);
+/* Defining the footer of page */
+
+.footer-container {
+  height: 30%;
+  width: 100%;
+  background-color: var(--corFundo);
+  color: var(--corAzulIconstru);
+}
+.h1-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  width: 100%;
+}
+.h1-footer::after,
+.h1-footer::before {
+  content: "";
+  display: inline-flex;
+  vertical-align: middle;
+  width: 2%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: var(--corDouradoIconstru);
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2% 5% 2% 2%;
+  flex-wrap: wrap;
+  height: 80%;
+}
+
+.section-content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  /* background-color: red; */
+}
+.section-content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: justify;
+  width: 15%;
+}
+.section-content3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: justify;
+  width: 15%;
+}
+.section-content4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.strong-paragraph {
+  color: var(--corDouradoIconstru);
+  text-shadow: 0px 1px 1px var(--corAlternativa);
+}
+.h3-title-footer {
+  text-align: center;
+}
+.a-sociais {
+  text-decoration: none;
+  color: var(--corAzulIconstru);
+  transition: 500ms;
+}
+.a-sociais:hover {
+  color: var(--corDouradoIconstru);
+}
+.lastline {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: var(--corAzulIconstru);
+  padding-bottom: 1%;
+}

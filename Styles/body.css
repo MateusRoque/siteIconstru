@@ -1,0 +1,37 @@
+@import url(roots.css);
+/* Defining the body of page and type of scroll */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fontePrincipalDMSans);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--corAzulIconstru);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--corDouradoIconstru);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #857439;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: var(--corAzulIconstru);
+  color: var(--corFundo);
+}

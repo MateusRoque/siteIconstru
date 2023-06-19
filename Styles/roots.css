@@ -1,0 +1,19 @@
+/* Defining the variables and characteristics */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat&family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --corAzulIconstru: #040c2c; /*  #040c2c */
+  --corDouradoIconstru: #e0c563;
+  --corFundo: #e5e5e5;
+  --corAlternativa: #ffffff;
+  --corVarianteAzul: #050f38;
+}
+:root {
+  --fontePrincipalDMSans: "DM Sans";
+}
